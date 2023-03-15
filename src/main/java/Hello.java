@@ -6,5 +6,6 @@ public class Hello {
         System.out.println("ya!!!!");
         System.out.println("Fighting!!");
         System.out.println(" ");
+        System.out.println(" ");
     }
 }
