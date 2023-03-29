@@ -13,11 +13,9 @@ public class Star {
 
             else {
 
-                for (int j = a; j > i-a; j--) {
-                    System.out.printf("*");
+                for (int j = a; j > i-a; j--){
+                System.out.printf("*");
                 }
-
-
             }
             System.out.printf("\n");
 
