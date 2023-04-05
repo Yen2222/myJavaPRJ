@@ -3,7 +3,7 @@ package Hello;
 public class HW_04_03 {
     public static void main(String[] args) { // 메인 함수 (자바에서 필수)
 
-        int j = 2; // 정수형 변수 2를 설정함 (2단부터 시작하기 때문)
+        int j = 2; // 정수형 변수 'j'를 선언함 (2단부터 시작하기 때문)
         for (int i = 1; i < 10; i++) { // 정수형 변수 'i'를 1부터 9까지 1씩 늘어나도록 반복함
             System.out.printf("%d X %d = %d ", j, i, j*i); // j와 i의 곱을 j X i = 값으로 출력함
             System.out.println(); // 하나의 식을 출력하고 다음 줄로 넘어감
