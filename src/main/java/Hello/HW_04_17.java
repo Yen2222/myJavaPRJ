@@ -13,9 +13,11 @@ public class HW_04_17 {
         }
         int x=aa.length;
         for (int i = 0; i < x; i++) {
-            for (int j = i+1; j < x; j++) {
+            for (int j = i+1 ; j < x; j++) {
                 if (aa[i] == aa[j]) {
-                    aa[j] = aa[j + 1];
+                    for(int k = j+1 ; k<x; k++){
+                    aa[k-1] = aa[k];
+                    }
                     x--;
                     i=0;
                     j=0;
