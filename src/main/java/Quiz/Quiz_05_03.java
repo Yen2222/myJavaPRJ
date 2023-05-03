@@ -14,8 +14,10 @@ public class Quiz_05_03 {
         }
         for(int i=0; i<5; i++){
             for(int j=i+1; j<list.size(); j++){
-                if(list.get(i) == list.get(j))
+                if(list.get(i) == list.get(j)) {
                     list.remove(j);
+                    j--;
+                }
             }
         }
         list.forEach(sort -> System.out.print(sort+" "));

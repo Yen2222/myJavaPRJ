@@ -1,0 +1,7 @@
+package JAVAclass;
+
+public class Ex07_6 {
+    public static void main(String[] args) {
+
+    }
+}
